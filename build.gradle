@@ -22,7 +22,7 @@ loom {
 	splitEnvironmentSourceSets()
 
 	mods {
-		"hunterpath" {
+		"hunter-path" {
 			sourceSet sourceSets.main
 			sourceSet sourceSets.client
 		}
