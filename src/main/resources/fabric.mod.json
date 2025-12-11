@@ -3,15 +3,15 @@
 	"id": "hunter-path",
 	"version": "${version}",
 	"name": "Hunter Path",
-	"description": "This is an example description! Tell everyone what your mod is about!",
+	"description": "Expand basic minecraft by adding upgradable tools",
 	"authors": [
-		"Me!"
+		"atticl"
 	],
 	"contact": {
-		"homepage": "https://fabricmc.net/",
-		"sources": "https://github.com/FabricMC/fabric-example-mod"
+		"homepage": "https://modrinth.com/project/hunterpath",
+		"sources": "https://github.com/atticlmodding/hunterpath"
 	},
-	"license": "CC0-1.0",
+	"license": "MIT",
 	"icon": "assets/hunter-path/icon.png",
 	"environment": "*",
 	"entrypoints": {
@@ -34,8 +34,5 @@
 		"minecraft": "~1.21.10",
 		"java": ">=21",
 		"fabric-api": "*"
-	},
-	"suggests": {
-		"another-mod": "*"
 	}
 }
