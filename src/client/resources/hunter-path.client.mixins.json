@@ -1,6 +1,6 @@
 {
 	"required": true,
-	"package": "hunterpath.mixin.client",
+	"package": "com.atticl.mixin.client",
 	"compatibilityLevel": "JAVA_21",
 	"client": [
 		"ExampleClientMixin"

@@ -1,4 +1,4 @@
-package hunterpath;
+package com.atticl;
 
 import net.fabricmc.api.ClientModInitializer;
 
