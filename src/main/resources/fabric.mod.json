@@ -1,0 +1,41 @@
+{
+	"schemaVersion": 1,
+	"id": "hunterpath",
+	"version": "${version}",
+	"name": "hunterPath",
+	"description": "Expand basic minecraft by adding upgradable tools",
+	"authors": [
+		"atticl"
+	],
+	"contact": {
+		"homepage": "https://www.atticl.com/",
+		"sources": "https://github.com/atticlmodding/hunterpath"
+	},
+	"license": "MIT",
+	"icon": "assets/hunterpath/icon.png",
+	"environment": "*",
+	"entrypoints": {
+		"main": [
+			"hunterpath.HunterPath"
+		],
+		"client": [
+			"hunterpath.HunterPathClient"
+		]
+	},
+	"mixins": [
+		"hunterpath.mixins.json",
+		{
+			"config": "hunterpath.client.mixins.json",
+			"environment": "client"
+		}
+	],
+	"depends": {
+		"fabricloader": ">=0.18.2",
+		"minecraft": "~1.21.11",
+		"java": ">=21",
+		"fabric-api": "*"
+	},
+	"suggests": {
+		"another-mod": "*"
+	}
+}
