@@ -6,6 +6,7 @@ import org.slf4j.Logger;
 import org.slf4j.LoggerFactory;
 
 import com.atticl.items.ModItems;
+import com.atticl.items.ModLootTables;
 
 public class HunterPath implements ModInitializer {
 	public static final String MOD_ID = "hunter-path";
@@ -15,6 +16,7 @@ public class HunterPath implements ModInitializer {
 	@Override
 	public void onInitialize() {
 		ModItems.initialize();
-		LOGGER.info("Hello Fabric world!");
+		ModLootTables.initialize();
+		// LOGGER.info("Hello Fabric world!");
 	}
 }
